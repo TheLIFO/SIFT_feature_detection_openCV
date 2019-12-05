@@ -4,14 +4,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>779b089e-0112-45d9-959a-3587a9cf64ae</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SIFT_feature_detection_openCV.py</StartupFile>
+    <StartupFile>C:\Users\ThomasReichert\Source\Repos\TheLIFO\SIFT_feature_detection_openCV\SIFT_feature_detection_openCV.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>SIFT_feature_detection_openCV</Name>
     <RootNamespace>SIFT_feature_detection_openCV</RootNamespace>
-    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|ocv</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +23,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SIFT_feature_detection_openCV.py" />
+    <InterpreterReference Include="CondaEnv|CondaEnv|ocv" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+    <Compile Include="SIFT_feature_detection_openCV.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
